@@ -1,0 +1,37 @@
+.projects {
+  padding: 50px 10%;
+}
+
+.card {
+  -webkit-box-shadow: 0 5px 20px 5px rgba(0,0,0,0.25);
+-moz-box-shadow: 0 5px 20px 5px rgba(0,0,0,0.15);
+box-shadow: 0 5px 20px 5px rgba(0,0,0,0.15);
+}
+
+.projects img {
+  box-shadow: none;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.col-md-6, .col-lg-4 {
+  margin: 20px auto;
+}
+
+.btn {
+  border-radius: 5px;
+  background: #00d2ff;
+  background: -webkit-linear-gradient(to right, #3a7bd5, #00d2ff);
+  background: linear-gradient(to right, #3a7bd5, #00d2ff);
+  color: white;
+  border: none;
+}
+
+.btn:hover {
+  -webkit-box-shadow: 0 34px 30px -10px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0 34px 30px -10px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 34px 30px -10px rgba(0, 0, 0, 0.4);
+  color: white;
+}

@@ -1,0 +1,299 @@
+html, body {
+  height: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  text-align: left;
+  font-family: 'Quicksand', sans-serif;
+  background-image: linear-gradient(to bottom right, #393e46, #323232, #000000);
+  padding: 0;
+}
+
+#contact {
+  padding-top: 40px;
+  background-color: #F4F4F9;
+  width: 100%;
+}
+
+.fade-In {
+  animation: fadeIn ease 5s;
+  -webkit-animation: fadeIn ease 5s;
+  -moz-animation: fadeIn ease 5s;
+  -o-animation: fadeIn ease 5s;
+  -ms-animation: fadeIn ease 5s;
+}
+
+.skillcard {
+  /* background-image: linear-gradient(to bottom right, #393e46, #323232, #000000); */
+  background-color: white;
+  color: black;
+  box-shadow: 0px 0px 25px 4px rgba(145,145,145,0.74);
+}
+
+.tags {
+  font-family: 'Voltaire', sans-serif;
+
+  /* color: #EC7D10; */
+}
+
+.projectCard, .skillcard {
+  padding: 20px 20px;
+  margin-bottom: 20px;
+  border-radius: 25px;
+  transition: top ease-in 0.2s;
+  top: 0;
+  position: relative;
+}
+
+.ML {
+  /* background-image: linear-gradient(to top, #40bad5, #43d8c9, #f7f7f7); */
+  background-color: #ffa41b;
+}
+
+.WD {
+  /* background-image: linear-gradient(to top, #f0a500, #fdd998, #f7f7f7); */
+  background-color: #8ec6c5;
+}
+
+.projectCard {
+  color: white;
+  /* background-color: #f9f9f9; */
+}
+
+.projectCard:hover, .skillcard:hover {
+  top: -10px;
+}
+
+.skillcard h3 {
+  color: #19d4fc;
+  /* color: #ffa41b; */
+}
+
+.btn-lg {
+  margin: 15px 15px 15px 0;
+  font-size: 2rem;
+  transition: top ease-in-out 0.2s;
+  top: 0;
+  position: relative;
+  border-radius: 20px;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.btn-lg:hover {
+  top: -10px;
+}
+
+#contact h5 {
+  margin: 20px auto 30px;
+  color: #0e9aa7;
+  font-size: 2rem;
+}
+
+#Projects i {
+  margin-right: 0;
+  margin-left: 10px;
+}
+
+i {
+  margin-right: 10px;
+}
+
+.projectButton {
+  background-color: white;
+  border-radius: 10px;
+  border: none;
+  padding: 5px 15px;
+  font-size: 1.2rem;
+}
+
+#top {
+  height: 100%;
+  width: auto;
+  /* background-size: cover;
+  background-position: center;
+  position: relative;
+  background-attachment: fixed;
+  background-repeat: no-repeat; */
+}
+
+.skillcard hr {
+  background-color: #74d4c0;
+}
+
+.activity {
+  text-align: left;
+  background-image: linear-gradient(to bottom right, #323232, #000000);
+  border-radius: 15px;
+  padding: 13px;
+  color: #F4F4F9;
+  font-family: 'Didact Gothic', sans-serif;
+}
+
+.activity h4 {
+  color: #888888;
+}
+
+.skillcard-content {
+  /* font-family: 'Voltaire', sans-serif; */
+  font-family: 'Didact Gothic', sans-serif;
+}
+
+.sectionContainer {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  width: 80%;
+  margin: auto;
+}
+
+#skills {
+  width: 100%;
+  background-color: #F4F4F9;
+}
+
+.legend {
+  font-family: 'Didact Gothic', sans-serif;
+  margin-bottom: 20px;
+}
+
+.Resume {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+
+#Projects h4 {
+  color: white;
+  margin-bottom: 15px;
+}
+
+#Projects {
+  width: 100%;
+  background-image: linear-gradient(to bottom right, #393e46, #323232, #000000);
+}
+
+.projectHeading {
+  color: #F4F4F9;
+  margin: 15px auto;
+}
+
+.top-image {
+  width: 300px;
+  float: right;
+  border-radius: 20px;
+  margin: 20px;
+  border: solid #F4F4F9;
+  box-shadow: 5px 5px 10px #393e46;
+}
+
+.top-intro {
+  border-radius: 15px;
+  text-align: left;
+  background-color: #F4F4F9;
+  padding: 25px;
+  box-shadow: 5px 5px 10px #393e46;
+  float: left;
+}
+
+#top .row {
+  width: 55%;
+  margin: auto;
+  /* padding: 15px; */
+}
+
+.skillsHeading {
+  margin: 15px auto 50px;
+  text-align: left;
+}
+
+.sectionHeading {
+  font-size: 3rem;
+}
+
+#footer {
+  padding: 50px;
+  text-align: center;
+  background-image: linear-gradient(#393e46, #323232, #000000);
+  color: white;
+  margin-bottom: 0;
+}
+
+.content {
+  position: absolute;
+  top: 25%;
+  width: 100%;
+}
+
+@media (max-width: 1000px) {
+  #top .content {
+    top: 2%;
+  }
+  #top .row {
+    width: 90%;
+  }
+}
+
+@media (max-width: 1400px) and (min-width: 1001px) {
+  #top .content {
+    top: 20%;
+  }
+  #top .row {
+    width: 70%;
+  }
+}
+
+#activityDesigning {
+  animation: myanimation1 12s infinite ease;
+}
+
+#activityLearning {
+  animation: myanimation4 12s infinite ease;
+}
+
+#activityExploring {
+  animation: myanimation2 12s infinite ease;
+}
+
+#activityProgramming {
+  animation: myanimation3 12s infinite ease;
+}
+
+@keyframes myanimation1 {
+  0% { color: #00a8cc;}
+  25% { color:#00a8cc;}
+  50% {color:#888888;}
+  75% {color:#888888;}
+  99% {color: #00a8cc;}
+  100% {color: #00a8cc;}
+}
+
+@keyframes myanimation2 {
+  0% { color: #888888;}
+  25% { color:#74d4c0;}
+  50% {color:#74d4c0;}
+  75% {color:#888888;}
+}
+
+@keyframes myanimation3 {
+  0% { color: #888888;}
+  25% { color:#888888;}
+  50% {color:#ffa41b;}
+  75% {color:#ffa41b;}
+}
+
+@keyframes myanimation4 {
+  0% { color: #888888;}
+  25% { color:#888888;}
+  50% {color:#888888;}
+  75% {color:#EC7D10;}
+  99% {color:#888888;}
+}
+
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}

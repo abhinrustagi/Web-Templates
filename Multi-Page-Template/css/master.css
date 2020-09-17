@@ -1,0 +1,243 @@
+body {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  color: #222222;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+img {
+  width: 90%;
+  -webkit-box-shadow: 0 0 30px -5px rgba(20, 20, 20, 1);
+  -moz-box-shadow: 0 0 30px -5px rgba(20, 20, 20, 1);
+  box-shadow: 0 0 30px -5px rgba(20, 20, 20, 1);
+  margin: 7.5% auto 7.5%;
+}
+
+.navbar {
+  padding: 0.5% 10%;
+  background-color: white;
+}
+
+nav {
+  background-color: white;
+}
+
+.skills > div {
+  text-align: left;
+}
+
+.skills > p {
+  margin-bottom: 40px;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+p {
+  color: #5f6769;
+}
+
+.navigationBar {
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  z-index: 9;
+  width: 100%;
+  font-weight: 600;
+  -webkit-box-shadow: 0 5px 38px -8px rgba(20, 20, 20, 1);
+  -moz-box-shadow: 0 5px 38px -8px rgba(20, 20, 20, 1);
+  box-shadow: 0 5px 38px -8px rgba(20, 20, 20, 1);
+}
+
+.resume {
+  background-color: inherit;
+  background: #00d2ff;
+  background: -webkit-linear-gradient(to right, #3a7bd5, #00d2ff);
+  background: linear-gradient(to right, #3a7bd5, #00d2ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  height: 35px;
+  width: 100px;
+  font-size: 1rem;
+  border: 2px #00d2ff solid;
+}
+
+.top {
+  background-image: url(../img/Untitled-1.png);
+  padding: 8% 7% 5% 7%;
+  margin: 0;
+}
+
+.intro {
+  margin: 25% auto 10% auto;
+  text-align: left;
+  background-color: white;
+  border-radius: 10px;
+  padding: 5%;
+  -webkit-box-shadow: 0 0 30px -5px rgba(20, 20, 20, 1);
+  -moz-box-shadow: 0 0 30px -5px rgba(20, 20, 20, 1);
+  box-shadow: 0 0 30px -5px rgba(20, 20, 20, 1);
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 40px;
+}
+
+#Resume {
+  text-decoration: underline;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: black;
+  font-weight: 500;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  background: #00d2ff;
+  background: -webkit-linear-gradient(to right, #3a7bd5, #00d2ff);
+  background: linear-gradient(to right, #3a7bd5, #00d2ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.active {
+  background: #00d2ff;
+  background: -webkit-linear-gradient(to right, #3a7bd5, #00d2ff);
+  background: linear-gradient(to right, #3a7bd5, #00d2ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.connect {
+  height: 35px;
+  width: 100px;
+  font-size: 1rem;
+  background: #00d2ff;
+  background: -webkit-linear-gradient(to right, #3a7bd5, #00d2ff);
+  background: linear-gradient(to right, #3a7bd5, #00d2ff);
+  border: none;
+  color: white;
+}
+
+.connect:hover, .resume:hover {
+  -webkit-box-shadow: 0 34px 30px -10px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0 34px 30px -10px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 34px 30px -10px rgba(0, 0, 0, 0.4);
+}
+
+.Interests, .Contact, .skills, .workex, .faq {
+  padding: 80px 10%;
+}
+
+hr {
+  width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  line-height: 1.2em;
+}
+
+.Interests h2, .Contact h2, .skills h2, .workex h2, .faq h2 {
+  font-size: 36px;
+}
+
+.interest {
+  margin: 40px auto 20px;
+}
+
+.interest-box {
+  cursor: pointer;
+}
+
+.interest-box h5 {
+  font-weight: 500;
+}
+
+.interest, .interest-box h5 {
+  transition: 0.3s ease-in-out;
+}
+
+.interest-box:hover .interest, .interest-box:hover h5 {
+  background: #00d2ff;
+  background: -webkit-linear-gradient(to right, #3a7bd5, #00d2ff);
+  background: linear-gradient(to right, #3a7bd5, #00d2ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.socialButton {
+  width: 160px;
+  height: 50px;
+  background: #00d2ff;
+  background: -webkit-linear-gradient(to right, #3a7bd5, #00d2ff);
+  background: linear-gradient(to right, #3a7bd5, #00d2ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border: solid 2px #00d2ff;
+  padding: 8px 15px 2px 15px;
+  margin: 20px auto 15px;
+  transition: 0.2s ease-in-out;
+  border-radius: 5px;
+}
+
+.socialButton i {
+  margin-right: 7px;
+  background: #141E30;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.socialButton:hover {
+  width: 170px;
+  height: 60px;
+  font-size: 1.5rem;
+}
+
+.footerHR {
+  background-color: #222831;
+  height: 5px;
+  margin-bottom: 0;
+}
+
+.footer {
+  text-align: left;
+  width: 100%;
+  background-color: #1b262c;
+  color: white;
+  padding: 40px 10%;
+  font-weight: normal;
+}
+
+.footer p {
+  color: white;
+}
+
+.footer i {
+  color: white;
+  font-size: 1.2rem;
+  margin-right: 10px;
+}
+
+.footer i:hover {
+  background: #00d2ff;
+  background: -webkit-linear-gradient(to right, #3a7bd5, #00d2ff);
+  background: linear-gradient(to right, #3a7bd5, #00d2ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.footer > div > div {
+  margin-bottom: 20px;
+}

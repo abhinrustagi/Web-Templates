@@ -1,0 +1,327 @@
+
+/* -------------------- HTML TAGS --------------------*/
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  text-align: center;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+section {
+  width: 80%;
+  margin: auto auto 50px;
+}
+
+h1 {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+h2 {
+  padding-top: 50px;
+  font-family: 'Varela Round', sans-serif;
+  margin-bottom: 30px;
+}
+
+h3 {
+  font-family: 'Varela Round', sans-serif;
+  margin-top: 30px;
+}
+
+h4 {
+  font-family: 'Varela Round', sans-serif;
+}
+
+i {
+  margin-right: 10px;
+}
+
+footer {
+  background-color: #1b1b2f;
+  margin-bottom: 0;
+  height: 100px;
+  vertical-align: middle;
+  padding-top: 10px;
+}
+
+/* -------------------- HOVER OVER IMAGES -------------------- */
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .1s ease;
+  background-color: white;
+  border: solid;
+  border-width: thin;
+}
+
+.imgcontainer {
+  position: relative;
+  width: 100%;
+}
+
+.tags {
+  font-family: Arial;
+  font-size: 0.8rem;
+  border-style: solid;
+  border-radius: 5px;
+  border-width: thin;
+  margin-bottom: 2px;
+  width: auto;
+  display: inline-block;
+  padding: 2px 5px 2px 5px;
+  margin: auto 2px auto 2px;
+}
+
+.text {
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: 'Questrial', sans-serif;
+  width: 90%;
+}
+
+.imgcontainer:hover .overlay {
+  opacity: 1;
+}
+
+.dot-inactive, .dot-active {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+}
+
+.dot-active {
+  background-color: #a8df65;
+}
+
+.legend-item {
+  float: left;
+  margin-right: 1rem;
+}
+
+.legend {
+  margin: auto;
+  display: inline-block;
+}
+
+.dot-inactive {
+  background-color: #ffcd3c;
+}
+
+.portfolio-content {
+  font-family: Arial;
+  font-size: 0.8rem;
+}
+
+.imgcontainer .dot-active {
+  display: inline-block;
+  position: absolute;
+  top: 2%;
+  right: 2%;
+}
+
+.imgcontainer .dot-inactive {
+  display: inline-block;
+  position: absolute;
+  top: 2%;
+  right: 2%;
+}
+
+/* -------------------- NAVBAR -------------------- */
+
+nav {
+  margin: 2rem auto 5rem;
+  width: 80%;
+  background-color: white;
+  border-bottom: solid;
+  border-width: thin;
+}
+
+.nav-item {
+  margin: auto 5px auto 5px;
+  font-size: 1.1rem;
+  font-family: 'Jost', sans-serif;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  font-family: 'Questrial', sans-serif;
+  /* font-family: 'overpassregular' */
+}
+
+div.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+}
+
+/* -------------------- LAYOUT -------------------- */
+
+.row {
+  margin-bottom: 25px;
+  margin-top: 10px;
+}
+
+.col-sm-3, .col-md-2 {
+  margin: 5px auto 5px auto;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.col-sm-6 {
+  width: 50%;
+}
+
+.footer-content {
+  margin-top: 25px;
+  color: white;
+}
+
+/* -------------------- CONTACT -------------------- */
+
+.social {
+  margin: 10px 10px auto 10px;
+  font-family: 'Questrial', sans-serif;
+}
+
+.card-img {
+  border-radius: 100%;
+  width: 200px;
+  margin-top: 25px;
+}
+
+.card {
+  width: 85%;
+  margin: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#contact {
+  padding-top: 50px;
+}
+
+/* -------------------- OTHER -------------------- */
+
+.headimg {
+  border-radius: 100%;
+  width: 250px;
+  border: solid;
+}
+
+.skills {
+  margin: 30px auto 30px;
+}
+
+.w3-animate-opacity {
+ animation-duration: 2.5s;
+}
+
+/* ---------------------- IMAGE MODALS -----------------*/
+
+#myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+#myImg:hover {opacity: 0.1;}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {
+  -webkit-animation-name: opacity;
+  -webkit-animation-duration: 0.6s;
+  animation-duration: 0.9s;
+}
+
+@-webkit-keyframes opacity {
+  from {-webkit-transform:scale(0)}
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)}
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }

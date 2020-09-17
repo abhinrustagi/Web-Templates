@@ -1,0 +1,355 @@
+body {
+  padding: 0;
+  text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
+  background-image: radial-gradient(#1b262c, #1d3846);
+  /* background-color: white; */
+  color: black;
+  user-select: none; /* supported by Chrome and Opera */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body, .top, .Middle {
+  margin: 0;
+}
+
+.Skills, .Projects, .contactMe, .Middle {
+  padding: 100px 5%;
+}
+
+.heading {
+  color: white;
+  font-family: 'Staatliches', sans-serif;
+  font-size: 5rem;
+  text-shadow: 3px 3px 0 rgba(0, 150, 185, 1);
+}
+
+/* TOP SECTION */
+.content {
+  margin: 50px auto;
+  padding: 0;
+}
+
+.top {
+  padding: 10% 5% 5%;
+  color: white;
+}
+
+.top h3 {
+  font-weight: lighter;
+}
+
+.top a:visited, .top a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.icon-scroll {
+  width: 40px;
+  height: 70px;
+  margin: 20px auto;
+  box-shadow: inset 0 0 0 1px white;
+  border-radius: 25px;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-name: movement;
+  cursor: pointer;
+}
+
+.icon-scroll:before {
+  position: relative;
+  content: '*';
+  width: 8px;
+  height: 8px;
+  color: white;
+  background: white;
+  margin-left: -4px;
+  top: 8px;
+  left: 2px;
+  border-radius: 4px;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-name: scroll;
+}
+
+.typed-cursor {
+  color: orange;
+  font-size: 2rem;
+}
+
+#typed {
+  font-weight: 700;
+  font-size: 2rem;
+  color: white;
+  text-decoration: underline white 2px;
+}
+
+h1, h2 {
+  font-family: 'Staatliches', sans-serif;
+}
+
+/* MIDDLE SECTION */
+.Middle {
+  background-image: url("../img/Middle Back.png");
+  background-attachment: fixed;
+  background-position: 20% 0;
+  background-size: cover;
+  -webkit-box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.75);
+  box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.75);
+}
+
+.Box {
+  text-align: left;
+  border-radius: 10px;
+  background-color: white;
+  position: relative;
+  left: 25%;
+  width: 50%;
+  margin: auto;
+  padding: 20px 30px;
+}
+
+.Box h1 {
+  color: black;
+}
+
+/* p {
+  font-family: 'Poppins', sans-serif;
+} */
+
+/* SKills */
+
+.row {
+  margin: 40px auto;
+  width: 100%;
+  text-align: left;
+}
+
+.Skills {
+  color: white;
+}
+
+.row b {
+  font-size: 1.4rem;
+}
+
+.row li {
+  font-size: 1.1rem;
+}
+
+/* PROJECTS SECTION */
+.Projects {
+  background-image: url(../img/projects4.jpg);
+  background-attachment: fixed;
+  background-position: right;
+  background-size: cover;
+  -webkit-box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.75);
+  box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.75);
+}
+
+.Projects h1 {
+  color: white;
+}
+
+.Projects .col-lg-4, .Projects .col-md-6 {
+  padding: 0;
+}
+
+.imageBox {
+  margin: 5px 2.5px;
+  padding: 0;
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: 0.2s ease-in-out;
+}
+
+.overlay {
+  position: absolute;
+  top: 80%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 1;
+  padding: 20px;
+  transition: .4s ease-in-out;
+  background: #f1f3f8;
+-webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+
+.imageBox:hover .overlay {
+  top: 10%;
+}
+
+/* .imageBox:hover .image {
+  transform: scale(1.5);
+} */
+
+.text {
+  color: #41444b;
+  margin: auto;
+  text-align: center;
+}
+
+.text h2 {
+font-size: 2rem;
+font-family: 'Staatliches', sans-serif;
+margin-bottom: 25px;
+color: #2d4059;
+}
+
+/* CONTACT ME */
+.contactMe {
+  color: white;
+  text-align: left;
+}
+
+.contact-heading {
+  font-size: 8rem;
+  letter-spacing: -3px;
+}
+
+.Inner {
+  font-size: 2rem;
+  text-shadow: none;
+  margin: 0;
+  padding: 2px 10px;
+  background-color: #2867b2;
+  width: 100%;
+  border-radius: 3px;
+  color: white;
+}
+
+.Outer {
+  border-radius: 10px;
+  padding: 5px;
+  margin: 10px 5px 10px 0;
+  border: solid 3px #2867b2;
+  background-color: none;
+}
+
+.github {
+  border: solid 3px #24292e;
+}
+
+.github-inside {
+  background-color: #24292e;
+}
+
+.mail {
+  border: solid 3px #ea5455;
+}
+
+.mail-inside {
+  background-color: #ea5455;
+}
+
+.contactMe button {
+  /* -webkit-box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.75);
+  box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.75); */
+  transition: 0.2s ease-in-out;
+}
+
+.contactMe button:hover {
+  /* -webkit-box-shadow: 0 0 15px 0 rgba(214, 214, 214, 1);
+  -moz-box-shadow: 0 0 15px 0 rgba(214, 214, 214, 1);
+  box-shadow: 0 0 10px 0 rgba(214, 214, 214, 1); */
+  -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.75);
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.75);
+}
+
+@media (max-width: 450px) {
+  .contact-heading {
+    font-size: 7rem;
+  }
+
+  #typed {
+    font-size: 1.5rem;
+  }
+
+  .Box {
+    width: 90%;
+    position: static;
+    left: 0;
+  }
+
+  .contact-heading {
+    font-size: 5rem;
+  }
+}
+
+@keyframes scroll {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateY(46px);
+  }
+}
+
+@keyframes movement {
+  50% {
+    transform: translateY(46px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/* @keyframes load {
+    0%{
+        opacity: 0.08;
+				filter: blur(5px);
+				letter-spacing: 3px;
+        }
+    100%{
+        }
+} */
+/* .loader {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background-image: radial-gradient(#1b262c, #1d3846);
+  z-index: 999;
+  top:0;
+}
+
+.animate {
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	height:100%;
+	margin: auto;
+  color: white;
+font-size: 3rem;
+font-family: 'Staatliches', sans-serif;
+	animation: load 2s infinite 0s ease-in-out;
+	animation-direction: alternate;
+	text-shadow: 0 0 1px white;
+  text-shadow: 3px 3px 0 rgba(0, 150, 185, 1);
+} */

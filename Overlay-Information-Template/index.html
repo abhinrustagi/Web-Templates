@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arran Russell</title>
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+  <!-- Fontawesome -->
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@700&family=Bebas+Neue&family=Slabo+13px&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <section id="top">
+    <div class="intro">
+      <div class="animatedSelf">
+        <div class="textUpper">
+          <div class="head1">
+            <span>Hi, there.</span>
+          </div>
+        </div>
+        <div class="borderdiv"></div>
+        <div class="textLower">
+          <div class="head3">I'm <span class="Arran">Arran Russell</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="whatIdo">
+    <h1>Keywords</h1>
+    <div class="row">
+      <div class="col-lg-4 col-md-6">
+        <h3><i class="fas fa-graduation-cap"></i>Keyword 1</h3>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <h3><i class="fas fa-ruler-combined"></i>Keyword 2</h3>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <h3><i class="fas fa-code"></i>Keyword 3</h3>
+      </div>
+  </section>
+  <section id="bg">
+      <h2 onclick="openbg()">View my background here</h2>
+  </section>
+  <section id="Skills">
+    <h1>Skills</h1>
+    <div class="row">
+      <div class="col-lg-4 col-md-6">
+        <div class="card">
+          <div class="hero">
+            <i class="fas fa-laptop-code fa-2x"></i>
+          </div>
+          <h2>Skill</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="card">
+          <div class="hero">
+            <i class="fas fa-pen-nib fa-2x"></i>
+          </div>
+          <h2>Skills</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="card">
+          <div class="hero">
+            <i class="fas fa-globe fa-2x"></i>
+          </div>
+          <h2>Skill</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="projects">
+    <h1>Recent Work</h1>
+    <div class="row">
+      <div class="col-lg-4 col-md-6">
+        <div class="container">
+          <img src="img/findingdonors.png" onclick="opendonors()" alt="Avatar" class="image">
+          <div onclick="opendonors()" class="imgoverlay">
+            <div class="text">Project 1</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="container">
+          <img src="img/tindog.png" onclick="opentindog()" alt="Avatar" class="image">
+          <div onclick="opentindog()" class="imgoverlay">
+            <div class="text">Project 2</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div id="bgoverlay" class="overlay">
+
+    <!-- Overlay content -->
+    <div class="overlay-content">
+        <h2>Background<span class="closebtn" onclick="closebg()">&times;</span></h2>
+      <div class="work">
+        <h2>Work Experience</h2>
+        <div class="workex">
+          <h3>Work</h3>
+          <h5>June, 2020 - August, 2020</h5>
+          <h5>Company</h5>
+        </div>
+        <div class="workex">
+          <h3>Work</h3>
+          <h5>June, 2020 - August, 2020</h5>
+          <h5>Company</h5>
+        </div>
+        <div class="workex">
+          <h3>Work</h3>
+          <h5>June, 2020 - August, 2020</h5>
+          <h5>Company</h5>
+        </div>
+      </div>
+      <div class="work">
+        <h2>Education</h2>
+        <div class="workex">
+          <h3>Class Name</h3>
+          <h5>2019 - 2022</h5>
+          <h5>School Name</h5>
+        </div>
+        <div class="workex">
+          <h3>Class Name</h3>
+          <h5>2019 - 2022</h5>
+          <h5>School Name</h5>
+        </div>
+        <div class="workex">
+          <h3>Class Name</h3>
+          <h5>2019 - 2022</h5>
+          <h5>School Name</h5>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <div id="tindog" class="overlay">
+
+    <!-- Overlay content -->
+    <div class="overlay-content">
+      <h2>Project 1<span class="closebtn" onclick="closetindog()">&times;</span></h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pulvinar pellentesque habitant morbi tristique senectus et netus et malesuada. Mauris vitae ultricies leo integer malesuada nunc vel. Aliquam purus sit amet luctus venenatis lectus magna fringilla. Lacus laoreet non curabitur gravida arcu ac tortor dignissim. Vitae proin sagittis nisl rhoncus mattis rhoncus. Condimentum id venenatis a condimentum vitae sapien pellentesque. Ornare arcu odio ut sem nulla pharetra diam sit. Fermentum posuere urna nec tincidunt praesent semper feugiat nibh sed. Cursus risus at ultrices mi tempus imperdiet. Pulvinar neque laoreet suspendisse interdum consectetur libero id faucibus. Aliquam ultrices sagittis orci a scelerisque purus semper.</p>
+      <a target="_blank" href=""><h5>View the project here.</h5></a>
+      <img src="img/tindog1.png" alt="">
+      <img src="img/tindog2.png" alt="">
+      <img src="img/tindog3.png" alt="">
+    </div>
+
+  </div>
+  <div id="donors" class="overlay">
+
+    <!-- Overlay content -->
+    <div class="overlay-content">
+      <h2>Project 2<span class="closebtn" onclick="closedonors()">&times;</span></h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pulvinar pellentesque habitant morbi tristique senectus et netus et malesuada. Mauris vitae ultricies leo integer malesuada nunc vel. Aliquam purus sit amet luctus venenatis lectus magna fringilla. Lacus laoreet non curabitur gravida arcu ac tortor dignissim. Vitae proin sagittis nisl rhoncus mattis rhoncus. Condimentum id venenatis a condimentum vitae sapien pellentesque. Ornare arcu odio ut sem nulla pharetra diam sit. Fermentum posuere urna nec tincidunt praesent semper feugiat nibh sed. Cursus risus at ultrices mi tempus imperdiet. Pulvinar neque laoreet suspendisse interdum consectetur libero id faucibus. Aliquam ultrices sagittis orci a scelerisque purus semper.</p>
+      <a target="_blank" href=""><h5>View the project here.</h5></a>
+      <img src="img/donors3.png" alt="">
+      <img src="img/donors2.png" alt="">
+      <img src="img/donors1.png" alt="">
+    </div>
+
+  </div>
+  <section id="contact">
+    <h1>Let's work<br /><span class="together">together.</span></h1>
+    <h3>I love new experiences.</h3>
+    <a href="" target="_blank"><button type="button" class="btn git btn-lg" name="button"><i class="fa fa-github"></i>Github</button></a>
+    <a href="" target="_blank"><button type="button" class="btn linkedin btn-lg" name="button"><i class="fa fa-linkedin"></i>LinkedIn</button></a>
+    <a href="" target="_blank"><button type="button" class="btn btn-outline-danger btn-lg" name="button"><i class="fa fa-envelope"></i>Mail</button></a>
+    <a href="" target="_blank"><button type="button" class="btn insta btn-lg" name="button"><i class="fa fa-instagram"></i>Instagram</button></a>
+    <a href="" target="_blank"><button type="button" class="btn fb btn-lg" name="button"><i class="fa fa-facebook"></i>Facebook</button></a>
+    <a href="" target="_blank"><button type="button" class="btn btn-outline-success btn-lg" name="button"><i class="fa fa-whatsapp"></i>WhatsApp</button></a>
+    <a href="" target="_blank"><button type="button" class="btn btn-outline-light btn-lg" name="button"><i class="fa fa-file"></i>Resume</button></a>
+  </section>
+  <script src="js/display.js" charset="utf-8"></script>
+</body>
+</html>
